@@ -84,10 +84,7 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(file_name, file_size, olink),
             parse_mode=ParseMode.HTML, 
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥", url=stream_link)]]),
-            reply_markup1=InlineKeyboardMarkup([[InlineKeyboardButton("Dᴏᴡɴʟᴏonlime", url=olink)]]),
-            quote=True
-        )
+            reply_markup=InlineKeyboardMarkup([[(InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥", url=stream_link)),(InlineKeyboardButton("Dᴏᴡɴʟᴏonlime", url=olink))]]),quote=True)
     except FloodWait as e:
         print(f"Sleeping for {str(e.value)}s")
         await asyncio.sleep(e.value)
