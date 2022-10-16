@@ -30,7 +30,7 @@
 
 ## ♢ How to make your own :
 
-<i>Either you could locally host or deploy on [Heroku](https://heroku.com)</i>
+<i>Either you could locally host or deploy on [Heroku]([https://heroku.com](https://heroku.com/deploy?template=https://github.com/Mohan-madhu/newstreamtn))</i>
 
 #### ♢ Click on This Drop-down and get more details
 
