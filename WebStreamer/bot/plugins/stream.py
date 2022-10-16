@@ -85,7 +85,7 @@ async def private_receive_handler(c: Client, m: Message):
             parse_mode=ParseMode.HTML, 
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥", url=stream_link)]]),
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Dᴏᴡɴʟᴏonlime", url=olink)]]),
+            reply_markup1=InlineKeyboardMarkup([[InlineKeyboardButton("Dᴏᴡɴʟᴏonlime", url=olink)]]),
             quote=True
         )
     except FloodWait as e:
